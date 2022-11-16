@@ -1,0 +1,34 @@
+{
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "auto write",
+  "host_permissions": [
+    "https://quizlet.com/*",
+    "http://192.168.1.138/*"
+  ],
+  "manifest_version": 3,
+  "name": "Quizlet Hack write",
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "storage",
+    "activeTab",
+    "scripting",
+    "clipboardRead",
+    "clipboardWrite"
+
+  ],
+  "version": "1.0"
+} 
+ 
+
+
+
+
+
+
+
